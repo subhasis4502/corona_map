@@ -1,5 +1,5 @@
 function updateMap() {
-  fetch("/data.json")
+  fetch("/blob/master/data.json")
     .then((response) => response.json())
     .then((rsp) => {
       console.log(rsp.data);
