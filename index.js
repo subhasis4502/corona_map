@@ -1,5 +1,5 @@
 function updateMap() {
-  fetch("/data.json")
+  fetch("https://subhasis4502.github.io/corona_map/data.json")
     .then((response) => response.json())
     .then((rsp) => {
       console.log(rsp.data);
