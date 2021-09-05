@@ -26,4 +26,4 @@ function updateMap() {
     });
 }
 
-setInterval(updateMap, 20000);
+setInterval(updateMap, 5000);
